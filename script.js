@@ -8,7 +8,7 @@ Jobdownload(job_list);
 function Jobdownload(job_list) {
 	job_list.innerHTML = " ";
 	fetch(
-		"https://raw.githubusercontent.com/JDFIREX/Frontend-Mentor-Challenges-static-job-listings-master/master/data.json"
+		"https://raw.githubusercontent.com/AmanpreetSingh1995/FEM_static_jobs_listing/master/data.json"
 	)
 		.then((reponse) => reponse.json())
 		.then((result) => {
